@@ -1,0 +1,11 @@
+<resources>
+    <string name="button_subscribe">Subscribe</string>
+    <string name="label_world">groupe-satisfaction</string>
+    <string name="label_politics">Politics</string>
+    <string name="label_business">groupe-eau</string>
+    <string name="label_technology">Technology</string>
+    <string name="label_science">Science</string>
+    <string name="label_sports">Sports</string>
+    <string name="send_button">send</string>
+    <string name="notification_message_hint">login</string>
+</resources>
