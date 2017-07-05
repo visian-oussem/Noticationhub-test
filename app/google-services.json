@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "986213875169",
+    "firebase_url": "https://notification-app-c889b.firebaseio.com",
+    "project_id": "notification-app-c889b",
+    "storage_bucket": "notification-app-c889b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986213875169:android:75db31c03b641c38",
+        "android_client_info": {
+          "package_name": "fr.visian.team.notificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986213875169-j5pctr6h3vesbuouhkjvhckjkt5dhj06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKOoOmIkRf80fooZKsxRb2w6u0QTIoQDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
