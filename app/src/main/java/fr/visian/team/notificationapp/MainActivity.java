@@ -326,6 +326,6 @@ public class MainActivity extends AppCompatActivity {
             categories.add("sports");
 
         notifications.storeCategoriesAndSubscribe(categories);
-        //notifications.subscribeToCategories(notifications.retrieveCategories());
+
     }
 }

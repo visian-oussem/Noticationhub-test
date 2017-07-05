@@ -52,7 +52,6 @@ class Notifications {
             protected Object doInBackground(Object... params) {
                 try {
                     String regid = instanceID.getToken(senderId, INSTANCE_ID_SCOPE);
-
                     String templateBodyGCM = "{\"data\":{\"message\":\"$(messageParam)\"}}";
 
                     hub.registerTemplate(regid, "templateParams",
@@ -62,17 +61,15 @@ class Notifications {
                     return e;
                 }
                 catch (Exception e) {
-                    Log.e("Notifications", "Failed to register - " + e.getMessage());
+                    Log.e("Notifications", "Failed - " + e.getMessage());
                     return e;
                 }
                 return null;
             }
 
             protected void onPostExecute(Object result) {
-                String message = "Subscribed for categories: "
-                        + categories.toString();
-                Toast.makeText(context, message,
-                        Toast.LENGTH_LONG).show();
+                String message = "Subscribed for categories: " + categories.toString();
+                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
             }
         }.execute(null, null, null);
     }
